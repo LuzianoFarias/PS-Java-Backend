@@ -1,25 +1,25 @@
 # Processo Seletivo Java
 
-## Descrição 
+## Descrição
 
 - Este teste consiste em construir uma camada de serviço, para uma operação muito realizada em bancos, para emissão de extrato bancário.
 
 
-## Como executar a aplicação 
+## Como executar a aplicação
 
-- Você pode executar a aplicação da maneira que quiser e utilizando a IDE de sua preferência. 
+- Você pode executar a aplicação da maneira que quiser e utilizando a IDE de sua preferência.
 - Caso queira executar a aplicação via linha de comando, execute primeiramente o comando:
 
                    ./mvnw clean package  para linux.
 
                    .\mvnw clean package  para windows.
-- Após isso execute o comando: 
+- Após isso execute o comando:
 
                              java -jar <...caminhoParaSeuJar>
 
 ## Requisitos de sistema
 
-- Possuir a JDK 11 
+- Possuir a JDK 11
 - Uma IDE ou editor de sua preferência
 
 ## Requisitos do Projeto
@@ -47,3 +47,8 @@
 - Utilizar o padrão RESTFul para a construção da sua API.
 - Existe um script sql no pacote resources que cotém a modelagem do banco que pode ser seguida, e valores iniciais.
 - Caso julge necessário você poderá criar mais tablas, porém a estrutura inicial não deve ser alterada.
+
+## Swagger
+    A API está documentada com Swagger, uma ferramenta para documentação de APIs. O Swagger fornece uma descrição estruturada dos endpoints, parâmetros e respostas da API. Isso facilita o entendimento e o uso correto dos recursos disponíveis. Além disso, o Swagger permite a geração de interfaces interativas para testar a API. Sua utilização promove a colaboração, acelera a integração de sistemas e melhora a experiência do usuário. Em resumo, o Swagger oferece uma documentação completa e organizada da API, facilitando sua utilização e compreensão.
+
+    Você pode acessar o link http://localhost:8080/swagger-ui/index.html#/ em um navegador da web para ver a documentação da API usando o Swagger. Certifique-se de que o servidor local esteja em execução e que a porta 8080 esteja correta para acessar a documentação corretamente.
