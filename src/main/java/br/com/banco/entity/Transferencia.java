@@ -21,7 +21,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Entity
 public class Transferencia {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -30,7 +30,6 @@ public class Transferencia {
     @Enumerated(EnumType.STRING)
     private TipoTransferencia tipo;
     private String nomeOperadorTransacao;
-
     @ManyToOne
     @JoinColumn(name = "conta_id")
     private Conta conta;
